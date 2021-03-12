@@ -2,7 +2,7 @@
 
 int main() {
     const string str = "Hello, World !";
-    cout << str << endl;
+    printf("%s\n", str.c_str());
 
     // C++ version info.
     const long cpp17 = 201703L;
