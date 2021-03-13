@@ -5,10 +5,10 @@ int main() {
     printf("%s\n", str.c_str());
 
     // C++ version info.
-    const long cpp17 = 201703L;
-    const long cpp14 = 201402L;
-    const long cpp11 = 201103L;
-    const long cpp98 = 199711L;
+    auto cpp17 = 201703L;
+    auto cpp14 = 201402L;
+    auto cpp11 = 201103L;
+    auto cpp98 = 199711L;
 
     // long type → string type.
     const string cpp_ver = to_string(__cplusplus);
