@@ -11,7 +11,7 @@ int main() {
     const long cpp98 = 199711L;
 
     // long type → string type.
-    string cpp_ver = to_string(__cplusplus);
+    const string cpp_ver = to_string(__cplusplus);
 
     if (cpp_ver == to_string(cpp17))
         cout << "現在の C++ : C++17" << endl;
