@@ -6,6 +6,8 @@
 
 #pragma once
 
+#define LIONHAIR_ALL_H
+
 #include <cstddef>
 #include <limits>
 #include <climits>
@@ -69,7 +71,5 @@
 
 using namespace std::literals;
 using namespace std;
-
-#define LIONHAIR_ALL_H
 
 #endif //LIONHAIR_ALL_H
