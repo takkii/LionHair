@@ -21,7 +21,6 @@
 #include <cerrno>
 #include <system_error>
 #include <string>
-#include <stdio.h>
 
 #if __has_include(<string_view>)
 #include <string_view>
