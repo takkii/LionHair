@@ -2,7 +2,8 @@
 
 class LionHair {
 public:
-    // C++ String
+
+    // C++ String.
     const string str = "Hello, World !";
 
     // C++ version info.
@@ -18,8 +19,11 @@ public:
 int main() {
 
     LionHair l;
+
+    // C++ String output.
     printf("%s\n", l.str.c_str());
 
+    // C++ version info output.
     if (l.cpp_ver == to_string(l.cpp17))
         cout << "現在の C++ : C++17" << endl;
     else if (l.cpp_ver == to_string(l.cpp14))
