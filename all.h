@@ -6,6 +6,8 @@
 
 #pragma once
 
+#define LIONHAIR_ALL_H
+
 #include <cstddef>
 #include <limits>
 #include <climits>
@@ -21,7 +23,6 @@
 #include <cerrno>
 #include <system_error>
 #include <string>
-#include <stdio.h>
 
 #if __has_include(<string_view>)
 #include <string_view>
@@ -70,7 +71,5 @@
 
 using namespace std::literals;
 using namespace std;
-
-#define LIONHAIR_ALL_H
 
 #endif //LIONHAIR_ALL_H
